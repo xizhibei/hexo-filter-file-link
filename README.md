@@ -12,6 +12,9 @@ npm install hexo-filter-github-issue-link --save
 
 Hexo will detect automatically
 
+## Important
+You must put the `issue_link` at the head of your post.
+
 ## Example
 
 Say you have the `issues1.md`
