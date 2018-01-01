@@ -1,39 +1,38 @@
 {
-  "name": "hexo-filter-file-link",
-  "version": "1.0.2",
-  "description": "make convenient to link local posted file",
+  "name": "hexo-filter-github-issue-link",
+  "version": "0.1.0",
+  "description": "Convert issue link to hexo permalink",
   "main": "index.js",
   "scripts": {
-    "build": "rollup src/main.js --output index.js --format cjs"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhenyong/hexo-filter-file-link.git"
+    "url": "git+https://github.com/xizhibei/hexo-filter-github-issue-link.git"
   },
   "keywords": [
     "hexo",
     "filter",
+    "issues",
+    "blog",
+    "issue-blog",
     "link",
     "markdown"
   ],
   "author": {
-    "name": "zhenyong",
-    "email": "116982086@qq.com",
-    "url": "http://zhenyong.site"
+    "name": "Xu Zhipei",
+    "email": "xuzhipei@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhenyong/hexo-filter-file-link/issues"
+    "url": "https://github.com/xizhibei/hexo-filter-github-issue-link/issues"
   },
-  "homepage": "https://github.com/zhenyong/hexo-filter-file-link#readme",
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/xizhibei/hexo-filter-github-issue-link#readme",
   "devDependencies": {
-    "babel-core": "^6.10.4",
-    "babel-eslint": "^6.1.2",
-    "babel-plugin-transform-class-properties": "^6.10.2",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-register": "^6.9.0",
-    "eslint": "^3.0.1",
-    "eslint-config-hexo": "^1.0.3",
-    "rollup": "^0.34.1"
+    "eslint": "^4.14.0",
+    "eslint-config-hexo": "^2.0.0"
   }
 }

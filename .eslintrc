@@ -1,7 +1,6 @@
 {
   "root": true,
   "extends": "hexo",
-  "parser": "babel-eslint",
   "globals": {
         "hexo": true
     }
