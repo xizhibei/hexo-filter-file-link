@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-github-issue-link",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert issue link to hexo permalink",
   "main": "index.js",
   "scripts": {
